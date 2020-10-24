@@ -1,0 +1,245 @@
+h1 {
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Inter', sans-serif;
+}
+
+h2 {
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Inter', sans-serif;
+}
+
+h3 {
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Inter', sans-serif;
+}
+
+p {
+	color: #118466;
+	font-weight: bold;
+}
+
+body {
+	background-color: white;
+	margin:0px;
+	font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+	background-color: #001E42;
+	padding: 30px;	
+	text-align: center;
+}
+
+.jumbotron {
+	margin:auto;
+	width:40%;
+	font-weight: 700;
+	background-color: white;
+}
+
+.gallerytext{
+	width:70%;
+	margin:auto;
+}
+
+.gallerytext h2 {
+	text-align: center;
+	color: black;
+	margin:auto;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	width:60%;
+	margin-top:50px;
+}
+
+.gallerytext p {
+	text-align: center;
+	margin:auto;
+	color: #118466;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	width:40%;
+	margin-top:5%;
+}
+
+.gallerycontainer {
+	clear: both;
+	width:100%;
+	text-align: center;
+	margin-top:60px;
+	font-family: 'Inter', sans-serif;
+	
+}
+
+.gallerycontainer .gallery {
+		clear:both;
+		background-color: lightgrey;
+		margin: auto;
+		color: #118466;
+		font-weight: bold;
+		width: 450px;
+		height: 425px;
+		margin-top: 25px;
+		margin-bottom:0px;
+		text-align: center;
+		padding: 25px;
+		
+	}
+
+.container {
+	clear: both;
+	width:100%;
+	text-align: center;
+	margin-top:60px;
+	font-family: 'Inter', sans-serif;
+}
+
+
+.container h1 {
+	text-align: center;
+	color:black;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	
+}
+
+.container .box {
+		clear:both;
+		background-color: #118466;
+		margin: auto;
+		color: white;
+		width: 200px;
+		text-align: center;
+		padding: 0px;
+	}
+	
+.container .switch {
+		clear:both;
+		background-color: #F8F6F4;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+		margin-top: 50px;
+		height: 500px;
+	}
+
+.container .tri {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+		margin-top: 50px;
+	}
+	
+.container .tri h1 {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 25px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		margin-bottom: 10px;
+		font-size:40px;
+	}
+	
+.container .tri p {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 25px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		margin-bottom: 10px;
+		font-size:20px;
+	}
+	
+.container .duo {
+		clear:both;
+		background-color: #F8F6F4;
+		margin: auto;
+		color: white;
+		width: 90%;
+		text-align: center;
+		padding: 50px;
+		padding-top:25px;
+		padding-left:35px;
+	}
+	
+.container .duo h1 {
+			color: black;
+			margin-top: 20px;
+			text-align: left;
+			font-family: 'Inter', sans-serif;
+			font-weight: 500;
+			margin-bottom: 1px;
+			font-size:50px;
+		}
+	
+.container .duo p {
+			color: black;
+			margin-top: 50px;
+			text-align: left;
+			font-family: 'Inter', sans-serif;
+			font-weight: 500;
+			margin-bottom:0px;
+			font-size:15px;
+		}	
+
+.container .box p {
+		color: white;
+		padding: 10px;
+		margin-top: 50px;
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		margin-bottom:75px;
+	}
+
+.button {
+    background-color: #118466;
+	color: white;
+    font-size: 20px;
+	margin-top:20px;
+	padding:20px 40px 20px 40px;
+    text-align: center;
+	font-family: 'Inter', sans-serif;
+}	
+
+footer {
+  height:100px;
+  margin:auto;
+  background-color: #001E42;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-right:70px;
+  padding-left: 70px;
+}
