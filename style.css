@@ -35,6 +35,14 @@ body {
 	text-align: center;
 }
 
+.navbar a {
+    margin-bottom: 0;
+    border-radius: 0;
+	color:#118466;
+	padding: 30px;	
+	text-align: center;
+}
+
 .jumbotron {
 	margin:auto;
 	width:40%;
@@ -142,6 +150,18 @@ body {
 		text-align: center;
 		padding: 5px;
 		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	
+	.container .tri img {
+		clear:both;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		margin-bottom:25px;
+
 	}
 	
 .container .tri h1 {
@@ -203,6 +223,35 @@ body {
 			margin-bottom:0px;
 			font-size:15px;
 		}	
+		
+		
+.container .duo2 {
+		clear:both;
+		background-color: #F8F6F4;
+		margin: auto;
+		color: white;
+		width: 90%;
+		text-align: center;
+		padding: 50px;
+		padding-top:25px;
+		padding-left:35px;
+	}
+	
+.container .duo2 h1 {
+			color: black;
+			text-align: left;
+			font-family: 'Inter', sans-serif;
+			font-weight: 500;
+			font-size:20px;
+		}
+	
+.container .duo2 p {
+			color: black;
+			text-align: left;
+			font-family: 'Inter', sans-serif;
+			font-weight: 500;
+			font-size:10px;
+		}	
 
 .container .box p {
 		color: white;
@@ -214,6 +263,10 @@ body {
 		margin-bottom:75px;
 	}
 
+	
+	
+	
+	
 .button {
     background-color: #118466;
 	color: white;
