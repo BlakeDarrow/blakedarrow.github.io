@@ -114,6 +114,64 @@ body {
 		
 	}
 
+	.container2 {
+		clear: both;
+		width:100%;
+		text-align: center;
+		margin-top:60px;
+		font-family: 'Inter', sans-serif;
+	}
+
+	.container2 .large {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 70%;
+		text-align: center;
+		padding: 5px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+
+	.container2 .large img {
+		clear:both;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		word-wrap: break-word;
+	}
+	
+
+
+.container2 .large h1 {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 25px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		margin-bottom: 10px;
+		font-size:40px;
+	}
+	
+.container2 .large p {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		font-size:15px;
+	}
+
 .container {
 	clear: both;
 	width:100%;
@@ -129,7 +187,6 @@ body {
 	font-family: 'Inter', sans-serif;
 	font-weight: 700;
 	font-size: 70px;
-	
 }
 
 .container .box {
@@ -203,6 +260,54 @@ body {
 		font-family: 'Inter', sans-serif;
 		font-weight: 500;
 
+		font-size:15px;
+	}
+	
+	.container .duo3 {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+
+	.container .duo3 img {
+		clear:both;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		word-wrap: break-word;
+	}
+	
+.container .duo3 h1 {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		padding: 25px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		margin-bottom: 10px;
+		font-size:40px;
+	}
+	
+.container .duo3 p {
+		clear:both;
+		background-color: #001E42;
+		margin: auto;
+		color: white;
+		width: 100%;
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
 		font-size:15px;
 	}
 	
