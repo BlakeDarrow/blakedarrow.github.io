@@ -1,36 +1,50 @@
 h1 {
-	color: white;
+	color: #686868;
 	letter-spacing: 2px;
 	font-family: 'Inter', sans-serif;
+	text-align: center;
 }
 
 h2 {
-	color: white;
+	color: #686868;
 	letter-spacing: 2px;
 	font-family: 'Inter', sans-serif;
 }
 
 h3 {
-	color: white;
+	color: #686868;
 	letter-spacing: 2px;
 	font-family: 'Inter', sans-serif;
 }
 
 p {
-	color: #118466;
+	color: #686868;
 	font-weight: bold;
 }
 
 body {
-	background-color: white;
+	background-color: #3b3b3b;
 	margin:0px;
 	font-family: 'Inter', sans-serif;
+}
+
+.backgroundholder {
+	width:100%;
+}
+
+.sidebar {
+	width:100%;
+	background-color: #232323;
+	height:100%;
+	padding-bottom: 125px;
+
 }
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-	background-color: #001E42;
+	background-color: #232323;
+	<!-- background-color: #001E42; -->
 	padding: 30px;	
 	text-align: center;
 }
@@ -39,7 +53,6 @@ body {
 		clear:both;
 		background-color: #001E42;
 		margin: auto;
-		color: white;
 		width: 100%;
 		text-align: center;
 		font-family: 'Inter', sans-serif;
@@ -50,89 +63,37 @@ body {
 .navbar a {
     margin-bottom: 0;
     border-radius: 0;
-	color:#118466;
 	padding: 30px;	
 	text-align: center;
 }
 
 .jumbotron {
 	margin:auto;
+	float:left;
 	width:50%;
 	font-weight: 700;
-	background-color: white;
-}
-
-
-.gallerytext{
-	width:70%;
-	margin:auto;
-}
-
-.gallerytext h2 {
+	background-color: rgba(0, 0, 0, 0.0);
+	color: #686868;
 	text-align: center;
-	color: black;
-	margin:auto;
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
-	font-size: 70px;
-	width:60%;
-	margin-top:50px;
 }
 
-.gallerytext p {
-	text-align: center;
-	margin:auto;
-	color: #118466;
-	font-family: 'Inter', sans-serif;
-	font-weight: 500;
-	font-size: 20px;
-	width:40%;
-	margin-top:5%;
-}
-
-.gallerycontainer {
-	clear: both;
-	width:100%;
-	text-align: center;
-	margin-top:60px;
-	font-family: 'Inter', sans-serif;
-	
-}
-
-.gallerycontainer .gallery {
-		clear:both;
-		background-color: lightgrey;
-		margin: auto;
-		color: #118466;
-		font-weight: bold;
-		width: 450px;
-		height: 425px;
-		margin-top: 25px;
-		margin-bottom:0px;
-		text-align: center;
-		padding: 25px;
-		
-	}
-
-	.container2 {
+.container2 {
 		clear: both;
 		width:100%;
 		text-align: center;
 		margin-top:60px;
 		font-family: 'Inter', sans-serif;
-	}
+}
 
-	.container2 .large {
+.container2 .large {
 		clear:both;
-		background-color: #001E42;
 		margin: auto;
-		color: white;
 		width: 80%;
 		text-align: center;
 		padding: 5px;
 		margin-top: 25px;
 		margin-bottom: 50px;
-	}
+}
 
 	.container2 .large img {
 		clear:both;
@@ -144,251 +105,45 @@ body {
 		word-wrap: break-word;
 	}
 	
-
-
-.container2 .large h1 {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		padding: 25px;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		margin-bottom: 10px;
-		font-size:40px;
-	}
-	
-.container2 .large p {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		font-size:15px;
-	}
-
 .container {
 	clear: both;
 	width:100%;
 	text-align: center;
-	margin-top:60px;
 	font-family: 'Inter', sans-serif;
 }
 
-
-.container h1 {
-	text-align: center;
-	color:black;
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
-	font-size: 70px;
+.container img{
+	clear: both;
+	width:70%;
 }
 
 .container .box {
 		clear:both;
-		background-color: #118466;
 		margin: auto;
-		color: white;
 		width: 200px;
 		text-align: center;
 		padding: 0px;
-	}
-	
-.container .switch {
-		clear:both;
-		background-color: #F8F6F4;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		padding: 5px;
-		margin-top: 50px;
-		height: 500px;
+		font-weight: 300;
 	}
 
-.container .tri {
+.duo {
+		font-size: 18px;
 		clear:both;
-		background-color: #001E42;
 		margin: auto;
-		color: white;
 		width: 100%;
-		text-align: center;
-		padding: 5px;
-		margin-top: 25px;
-		margin-bottom: 50px;
+		padding-bottom:50px;
 	}
-
-	
-	.container .tri img {
-		clear:both;
-		width: 50%;
-		height: auto;
-		margin: auto;
-		text-align: center;
-		padding: 15px;
-		margin-bottom:25px;
-		word-wrap: break-word;
-
-	}
-	
-.container .tri h1 {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		padding: 25px;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		margin-bottom: 10px;
-		font-size:40px;
-	}
-	
-.container .tri p {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-
-		font-size:15px;
-	}
-	
-	.container .duo3 {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 90%;
-		text-align: center;
-		padding: 5px;
-		margin-top: 100px;
-		margin-bottom: 100px;
-	}
-
-	.container .duo3 img {
-		clear:both;
-		width: 100%;
-		height: auto;
-		margin: auto;
-		text-align: center;
-		padding: 15px;
-		word-wrap: break-word;
-	}
-	
-.container .duo3 h1 {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		padding: 25px;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		margin-bottom: 10px;
-		font-size:40px;
-	}
-	
-.container .duo3 p {
-		clear:both;
-		background-color: #001E42;
-		margin: auto;
-		color: white;
-		width: 100%;
-		text-align: center;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		font-size:15px;
-	}
-	
-.container .duo {
-		clear:both;
-		background-color: #F8F6F4;
-		margin: auto;
-		color: white;
-		width: 80%;
-		text-align: center;
-		padding: 50px;
-		padding-top:25px;
-		padding-left:35px;
-	}
-	
-.container .duo h1 {
-			color: black;
-			margin-top: 20px;
-			text-align: left;
-			font-family: 'Inter', sans-serif;
-			font-weight: 500;
-			margin-bottom: 1px;
-			font-size:50px;
+	.duo h1 {
+		text-align: left;
+			font-size: 30px;
+			font-weight: 700;
+			clear:both;
+			margin: auto;
+			width: 100%;
+			padding-bottom:5px;
 		}
-	
-.container .duo p {
-			color: black;
-			margin-top: 50px;
-			text-align: left;
-			font-family: 'Inter', sans-serif;
-			font-weight: 500;
-			margin-bottom:0px;
-			font-size:15px;
-		}	
-		
-		
-.container .duo2 {
-		clear:both;
-		background-color: #F8F6F4;
-		margin: auto;
-		color: white;
-		width: 50%;
-		text-align: center;
-		padding: 50px;
-		padding-top:25px;
-		padding-left:35px;
-	}
-	
-.container .duo2 h1 {
-			color: black;
-			text-align: left;
-			font-family: 'Inter', sans-serif;
-			font-weight: 500;
-			font-size:30px;
-		}
-	
-.container .duo2 p {
-			color: black;
-			text-align: left;
-			font-family: 'Inter', sans-serif;
-			font-weight: 500;
-			font-size:15px;
-		}	
-
-.container .box p {
-		color: white;
-		padding: 10px;
-		margin-top: 50px;
-		text-align: center;
-		font-family: 'Inter', sans-serif;
-		font-weight: 500;
-		margin-bottom:75px;
-	}
-
-	
-	
-	
 	
 .button {
-    background-color: #118466;
-	color: white;
     font-size: 20px;
 	margin-top:20px;
 	padding:20px 40px 20px 40px;
@@ -399,14 +154,11 @@ body {
 footer {
   height:100px;
   margin:auto;
-  background-color: #001E42;
-  color: white;
   padding-top: 10px;
   text-align: center;
 }
 
 footer p {
-  color: white;
   padding: 25px;
   text-align: center;
   font-family: 'Inter', sans-serif;
