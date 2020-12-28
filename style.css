@@ -21,12 +21,14 @@ h3 {
 p {
 	color: #686868;
 	font-weight: bold;
+	font-size: large;
 }
 
 body {
 	background-color: #3b3b3b;
 	margin:0px;
 	font-family: 'Inter', sans-serif;
+	min-height: 0px;
 }
 
 .backgroundholder {
@@ -35,9 +37,12 @@ body {
 
 .sidebar {
 	width:100%;
-	background-color: #232323;
+	background-color: #2c2c2c;
 	height:100%;
-	padding-bottom: 100%;
+	min-height: 0px; 
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 10%;
 
 }
 
@@ -45,7 +50,6 @@ body {
     margin-bottom: 0;
     border-radius: 0;
 	background-color: #232323;
-	<!-- background-color: #001E42; -->
 	padding: 30px;	
 	text-align: center;
 }
@@ -72,14 +76,41 @@ body {
 	margin:auto;
 	clear:both;
 	float:left;
-	width:50%;
+	width:100%;
 	font-weight: 700;
 	background-color: rgba(0, 0, 0, 0.0);
 	color: #686868;
 	text-align: center;
 }
 
-.container2 {
+.container {
+	clear: both;
+	width:100%;
+	text-align: left;
+	font-family: 'Inter', sans-serif;
+	padding-bottom: 25px;
+	min-height: 0px;
+}
+
+.container p {
+	padding: 25px 100px;
+	font-size: large;
+}
+
+.container img{
+	clear: both;
+	width:100%;
+}
+
+.container .box {
+		clear:both;
+		margin: auto;
+		width: 200px;
+		text-align: center;
+		font-weight: 300;
+	}
+
+	.container2 {
 		clear: both;
 		width:100%;
 		text-align: center;
@@ -107,27 +138,6 @@ body {
 		word-wrap: break-word;
 	}
 	
-.container {
-	clear: both;
-	width:100%;
-	text-align: left;
-	font-family: 'Inter', sans-serif;
-	padding-bottom: 25px;
-}
-
-.container img{
-	clear: both;
-	width:100%;
-}
-
-.container .box {
-		clear:both;
-		margin: auto;
-		width: 200px;
-		text-align: center;
-		padding: 0px;
-		font-weight: 300;
-	}
 
 .duo {
 		font-size: 18px;
@@ -140,18 +150,18 @@ body {
 	.duo img {
 		width: 100%;
 	}
-	.duo h1 {
-		text-align: left;
-			font-size: 30px;
-			font-weight: 700;
-			clear:both;
-			margin: auto;
-			width: 100%;
-			padding-bottom:5px;
-		}
 
 	.duo p {
 		padding-bottom: 55px;
+		font-size: medium;
+	}
+
+	.duo h2 {
+		color: #686868;
+		letter-spacing: 2px;
+		font-family: 'Inter', sans-serif;
+		text-align: left;
+		font-size: larger;
 	}
 	
 .button {
@@ -184,7 +194,7 @@ footer p {
 	clear:both;
 	margin: auto;
 	width: 100%;
-	padding-bottom: 55%;
+	padding:10%;
 	text-align: center;
 }
 
