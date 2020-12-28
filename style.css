@@ -120,27 +120,6 @@ body {
 		font-family: 'Inter', sans-serif;
 }
 
-.container2 .large {
-		clear:both;
-		margin: auto;
-		width: 80%;
-		text-align: center;
-		padding: 5px;
-		margin-top: 25px;
-		margin-bottom: 50px;
-}
-
-	.container2 .large img {
-		clear:both;
-		width: 100%;
-		height: auto;
-		margin: auto;
-		text-align: center;
-		padding: 15px;
-		word-wrap: break-word;
-	}
-	
-
 .duo {
 		clear:both;
 		margin: auto;
