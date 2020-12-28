@@ -10,6 +10,7 @@ h2 {
 	letter-spacing: 2px;
 	font-family: 'Inter', sans-serif;
 	text-align: left;
+	font-size: x-large;
 }
 
 h3 {
@@ -21,7 +22,7 @@ h3 {
 p {
 	color: #686868;
 	font-weight: bold;
-	font-size: large;
+	font-size: x-large;
 }
 
 body {
@@ -94,7 +95,7 @@ body {
 
 .container p {
 	padding: 25px 100px;
-	font-size: large;
+	font-size: x-large;
 }
 
 .container img{
@@ -153,7 +154,7 @@ body {
 
 	.duo p {
 		padding-bottom: 55px;
-		font-size: medium;
+		font-size: large;
 	}
 
 	.duo h2 {
@@ -161,7 +162,7 @@ body {
 		letter-spacing: 2px;
 		font-family: 'Inter', sans-serif;
 		text-align: left;
-		font-size: larger;
+		font-size: x-large;
 	}
 	
 .button {
