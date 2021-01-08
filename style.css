@@ -52,7 +52,7 @@ body {
     margin-bottom: 0;
     border-radius: 0;
 	background-color: #232323;
-	padding: 30px;	
+	padding: 15px;	
 	text-align: center;
 }
 
@@ -141,6 +141,26 @@ body {
 		font-family: 'Inter', sans-serif;
 		text-align: left;
 	}
+
+
+
+	.duo2 {
+		clear:both;
+		margin: auto;
+		width: 100%;
+		padding: 50px 50px 20% 20%;
+		padding-bottom: 35%;
+	}
+
+	.duo2 p {
+		text-align: left;
+		padding: 0.2%;
+	}
+
+	.duo2 h1 {
+		text-align: left;
+	}
+
 	
 .button {
     font-size: 20px;
