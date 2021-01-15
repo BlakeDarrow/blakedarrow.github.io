@@ -58,10 +58,10 @@ body {
 
 .navbar h2 {
 		clear:both;
-		background-color: #001E42;
 		margin: auto;
 		width: 100%;
-		text-align: center;
+		text-align: right;
+		color: #3d3d3d;
 		font-family: 'Inter', sans-serif;
 		font-weight: 500;
 		font-size:15px;
